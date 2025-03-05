@@ -13,8 +13,8 @@ Estúdio Portugol
         leia(velocidadeMedia)
 
         tempo = distanciaTotal/velocidadeMedia
-        horas = tempo
     
-        escreva("O tempo estimado para a viagem em horas é ", horas," horas")
+    
+        escreva("O tempo estimado para a viagem em horas é ", tempo," horas")
       }
     }
