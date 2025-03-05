@@ -6,13 +6,13 @@ Estúdio Portugol
     
         real distanciaTotal, velocidadeMedia, horas, tempo
 
-        escreva("Digite a distania total a ser percorrida (em km/h) ")
+        escreva("Digite a distania total a ser percorrida (em km/h): ")
         leia(distanciaTotal)
 
-        escreva("Digite a velocidade media esperada (km/h) ")
+        escreva("Digite a velocidade media esperada (km/h): ")
         leia(velocidadeMedia)
 
-        tempo = distanciaTotal/velocidadeMedia
+        tempo = distanciaTotal / velocidadeMedia
     
     
         escreva("O tempo estimado para a viagem em horas é ", tempo," horas")
