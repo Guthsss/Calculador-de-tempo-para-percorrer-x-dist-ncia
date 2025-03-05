@@ -1,19 +1,20 @@
 # Calculador-de-tempo-para-percorrer-x-dist-ncia
 Estúdio Portugol
 
-    programa 
-     funcao inicio() 
+    programa {
+      funcao inicio() {
     
-     valor realTotal, valorPago, troco
-  
-     escreva ("Digite o valor total da compra")
-     leia(valorTotal)
+        real distanciaTotal, velocidadeMedia, horas, tempo
 
-     escreva ("Digite o valor pago pelo cliente")
-     leia(valorPago)
+        escreva("Digite a distania total a ser percorrida (em km/h) ")
+        leia(distanciaTotal)
 
-     troco= valorTotal-valorPago
-     escreva(troco)
+        escreva("Digite a velocidade media esperada (km/h) ")
+        leia(velocidadeMedia)
+
+        tempo = distanciaTotal/velocidadeMedia
+        horas = tempo
     
+        escreva("O tempo estimado para a viagem em horas é ", horas," horas")
       }
     }
